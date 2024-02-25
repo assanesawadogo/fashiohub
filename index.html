@@ -1,190 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
     <title>fashionhub</title>
-    <link rel="shortcut icon" href="images/OIP.jpeg" type="image/x-icon">
-</head>
-<body>
-<div class="header">
-    <div class="left">
-        <img src="images/OIP.jpeg" alt="" srcset="">
+    <link rel="shortcut icon" href="images/OIP.jpeg" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="left">
+        <img src="images/OIP.jpeg" alt="" srcset="" />
         <h2><a href="">FashionHub</a></h2>
-    </div>
-    <div class="right">
-        <div class="large-screen"><ul>
+      </div>
+      <div class="right">
+        <div class="large-screen">
+          <ul>
             <li><a href="">Services</a></li>
             <li><a href="product.html">Produits</a></li>
             <li><a href="">A propos</a></li>
             <li><a href="contact.html">Contact</a></li>
-           </ul> </div>
-       <div class="small-screen-nav">
-        <div class="menu" onclick="open()">menu</div>
-        <ul>
+          </ul>
+        </div>
+        <button onclick="open()" id="menu">Menu</button>
+        <div id="small"> 
+            <ul>
             <li><a href="">Services</a></li>
-            <li><a href="">Produits</a></li>
+            <li><a href="product.html">Produits</a></li>
             <li><a href="">A propos</a></li>
-            <li><a href="">Contact</a></li>
-           </ul> 
-       </div>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-</div>
-<div class="hero">
-    <div class="hero-left">
-        <h1>Demarquez-vous des autres par votre <br> <span class="blue">habillement</span> </h1>
+    <div class="hero">
+      <div class="hero-left">
+        <h1>
+          Demarquez-vous des autres par votre <br />
+          <span class="blue">habillement</span>
+        </h1>
         <p>Notre mission, vous vêtir en costume de qualite</p>
+      </div>
+      <div class="hero-right">
+        <img src="images/product.png" alt="" srcset="" />
+      </div>
     </div>
-    <div class="hero-right">
-        <img src="images/product.png" alt="" srcset="">
+    <div class="products">
+      <div class="product-cards-container">
+        <div class="product-card">
+          <img src="images/product.png" alt="produit" />
+          <div class="product-card-bottom">
+            <p>4000 FCFA</p>
+            <p>Description</p>
+            <button>Achetter</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="images/product.png" alt="produit" />
+          <div class="product-card-bottom">
+            <p>4000 FCFA</p>
+            <p>Description</p>
+            <button>Achetter</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="images/product.png" alt="produit" />
+          <div class="product-card-bottom">
+            <p>4000 FCFA</p>
+            <p>Description</p>
+            <button>Achetter</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="images/product.png" alt="produit" />
+          <div class="product-card-bottom">
+            <p>4000 FCFA</p>
+            <p>Description</p>
+            <button>Achetter</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="images/product.png" alt="produit" />
+          <div class="product-card-bottom">
+            <p>4000 FCFA</p>
+            <p>Description</p>
+            <button>Achetter</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="images/product.png" alt="produit" />
+          <div class="product-card-bottom">
+            <p>4000 FCFA</p>
+            <p>Description</p>
+            <button>Achetter</button>
+          </div>
+        </div>
+      </div>
     </div>
-</div>
-<div class="products">
-    <div class="product-cards-container">
-        <div class="product-card">
-            <img src="images/product.png" alt="produit">
-            <div class="product-card-bottom">
-                <p>4000 FCFA</p>
-                <p>Description</p>
-            <button>Achetter</button>
-            </div>
-        </div>
-        <div class="product-card">
-            <img src="images/product.png" alt="produit">
-            <div class="product-card-bottom">
-                <p>4000 FCFA</p>
-                <p>Description</p>
-            <button>Achetter</button>
-            </div>
-        </div>
-        <div class="product-card">
-            <img src="images/product.png" alt="produit">
-            <div class="product-card-bottom">
-                <p>4000 FCFA</p>
-                <p>Description</p>
-            <button>Achetter</button>
-            </div>
-        </div>
-        <div class="product-card">
-            <img src="images/product.png" alt="produit">
-            <div class="product-card-bottom">
-                <p>4000 FCFA</p>
-                <p>Description</p>
-            <button>Achetter</button>
-            </div>
-        </div>
-        <div class="product-card">
-            <img src="images/product.png" alt="produit">
-            <div class="product-card-bottom">
-                <p>4000 FCFA</p>
-                <p>Description</p>
-            <button>Achetter</button>
-            </div>
-        </div>
-        <div class="product-card">
-            <img src="images/product.png" alt="produit">
-            <div class="product-card-bottom">
-                <p>4000 FCFA</p>
-                <p>Description</p>
-            <button>Achetter</button>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="reviews">
-    <h2>Ce que disent nos clients</h2>
-    <div class="card-container">
+    <div class="reviews">
+      <h2>Ce que disent nos clients</h2>
+      <div class="card-container">
         <div class="card">
-            <div class="card-header">
-                <img src="images/OIP.jpeg" alt=""> <p><a href="">@hamadosimean</a></p>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Dolore dolorem id minus magni vel unde aliquam expedita!
-                Ullam libero corrupti laborum odit voluptatibus ex doloribus 
-             cumque, nesciunt magnam repudiandae excepturi.
-            </p>
+          <div class="card-header">
+            <img src="images/OIP.jpeg" alt="" />
+            <p><a href="">@hamadosimean</a></p>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            dolorem id minus magni vel unde aliquam expedita! Ullam libero
+            corrupti laborum odit voluptatibus ex doloribus cumque, nesciunt
+            magnam repudiandae excepturi.
+          </p>
         </div>
         <div class="card">
-            <div class="card-header">
-                <img src="images/OIP.jpeg" alt=""> <p><a href="">@hamadosimean</a></p>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur
-                 adipisicing elit. Dolore dolorem id minus magni vel unde aliquam expedita!
-                 Ullam libero corrupti laborum odit voluptatibus ex doloribus 
-                 cumque, nesciunt magnam repudiandae excepturi.
-            </p>
-                </div> <div class="card">
-                    <div class="card-header">
-                        <img src="images/OIP.jpeg" alt=""> <p><a href="">@hamadosimean</a></p>
-                    </div>
-                    <p>Lorem ipsum dolor sit amet consectetur
-                         adipisicing elit. Dolore dolorem id minus magni vel unde aliquam expedita!
-                         Ullam libero corrupti laborum odit voluptatibus ex doloribus 
-                         cumque, nesciunt magnam repudiandae excepturi.
-                    </p>
+          <div class="card-header">
+            <img src="images/OIP.jpeg" alt="" />
+            <p><a href="">@hamadosimean</a></p>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            dolorem id minus magni vel unde aliquam expedita! Ullam libero
+            corrupti laborum odit voluptatibus ex doloribus cumque, nesciunt
+            magnam repudiandae excepturi.
+          </p>
         </div>
-     <div class="card">
-        <div class="card-header">
-            <img src="images/OIP.jpeg" alt=""> <p><a href="">@hamadosimean</a></p>
+        <div class="card">
+          <div class="card-header">
+            <img src="images/OIP.jpeg" alt="" />
+            <p><a href="">@hamadosimean</a></p>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            dolorem id minus magni vel unde aliquam expedita! Ullam libero
+            corrupti laborum odit voluptatibus ex doloribus cumque, nesciunt
+            magnam repudiandae excepturi.
+          </p>
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur
-             adipisicing elit. Dolore dolorem id minus magni vel unde aliquam expedita!
-             Ullam libero corrupti laborum odit voluptatibus ex doloribus 
-             cumque, nesciunt magnam repudiandae excepturi.
-        </p>
-            </div>
+        <div class="card">
+          <div class="card-header">
+            <img src="images/OIP.jpeg" alt="" />
+            <p><a href="">@hamadosimean</a></p>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            dolorem id minus magni vel unde aliquam expedita! Ullam libero
+            corrupti laborum odit voluptatibus ex doloribus cumque, nesciunt
+            magnam repudiandae excepturi.
+          </p>
+        </div>
+      </div>
     </div>
-</div>
 
-<div class="form">
-    <div class="form-left">
+    <div class="form">
+      <div class="form-left">
         <h1>Contactez nous</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet alias quo porro dolores quibusdam ad repellat sint. Necessitatibus optio deserunt architecto, assumenda obcaecati a autem aperiam fugiat reprehenderit! Corrupti, necessitatibus?</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat enim res aperta. Bork Beatus autem esse in maximarum rerum timore nemo potest. Aliter enim explicari, quod quaeritur, non potest. Duo Reges: constructio interrete. 
-
-Quae duo sunt, unum facit. Restinguet citius, si ardentem acceperit. 
-
-Quae cum dixisset, finem ille. Primum divisit ineleganter; Iam in altera philosophiae parte. Quid ad utilitatem tantae pecuniae? Que Manilium, ab iisque M. 
-
-</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet alias
+          quo porro dolores quibusdam ad repellat sint. Necessitatibus optio
+          deserunt architecto, assumenda obcaecati a autem aperiam fugiat
+          reprehenderit! Corrupti, necessitatibus?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat enim res
+          aperta. Bork Beatus autem esse in maximarum rerum timore nemo potest.
+          Aliter enim explicari, quod quaeritur, non potest. Duo Reges:
+          constructio interrete. Quae duo sunt, unum facit. Restinguet citius,
+          si ardentem acceperit. Quae cum dixisset, finem ille. Primum divisit
+          ineleganter; Iam in altera philosophiae parte. Quid ad utilitatem
+          tantae pecuniae? Que Manilium, ab iisque M.
+        </p>
+      </div>
+      <div class="form-right">
+        <form action="" method="post">
+          <p><input type="text" placeholder="exemple Sawadogo Hedre" /></p>
+          <p><input type="email" placeholder="exemple 123@gmail.com" /></p>
+          <p><input type="password" placeholder="Botre mot de passe" /></p>
+        </form>
+        <input type="button" value="Envoyer" />
+      </div>
     </div>
-        <div class="form-right">
-            <form action="" method="post">
-                <p><input type="text" placeholder="exemple Sawadogo Hedre"></p>
-                <p><input type="email" placeholder="exemple 123@gmail.com"></p>
-                <p><input type="password" placeholder="Botre mot de passe"></p>
-            </form>
-            <input type="button" value="Envoyer">
-        </div>
-   
-</div>
-
-
-
-</div>
-
-<div class="footer">
-    <div class="footer-elements">
+    <div class="footer">
+      <div class="footer-elements">
         <div class="footer-left">
-            <div class="social">
-                <ul>
-                    <li><a href="">Facebook</a></li>
-                    <li><a href="">WhatSapp</a></li>
-                    <li><a href="">Instagram</a></li>
-                    <li><a href="">X</a></li>
-                </ul>
-            </div>
+          <div class="social">
+            <ul>
+              <li><a href="">Facebook</a></li>
+              <li><a href="">WhatSapp</a></li>
+              <li><a href="">Instagram</a></li>
+              <li><a href="">X</a></li>
+            </ul>
+          </div>
         </div>
         <div class="footer-right">
-            <ul>
-                <li><a href="">Contact Nous</a></li>
-                <li><a href="">Aide</a></li>
-                <li><a href="">FAQ</a></li>
-            </ul>
+          <ul>
+            <li><a href="">Contact Nous</a></li>
+            <li><a href="">Aide</a></li>
+            <li><a href="">FAQ</a></li>
+          </ul>
         </div>
+      </div>
+      <p>Copyright &copy;2023. All rights reserved FashionHub</p>
     </div>
-    <p>Copyright &copy;2023. All rights reserved FashionHub</p>
-</div>
-</body>
+    <script src="js/script.js"></script>
+  </body>
 </html>
